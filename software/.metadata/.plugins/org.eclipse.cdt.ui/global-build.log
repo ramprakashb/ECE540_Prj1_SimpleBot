@@ -1,0 +1,9 @@
+21:10:45 **** Build of configuration Default for project ReadSwitches ****
+make all 
+makefile:4: *** MIPS_ELF_ROOT must be set to point to toolkit installation root.  Stop.
+21:10:53 **** Incremental Build of configuration Default for project ReadSwitches ****
+make all 
+makefile:4: *** MIPS_ELF_ROOT must be set to point to toolkit installation root.  Stop.
+22:08:03 **** Incremental Build of configuration Default for project ReadSwitches ****
+make all 
+makefile:4: *** MIPS_ELF_ROOT must be set to point to toolkit installation root.  Stop.

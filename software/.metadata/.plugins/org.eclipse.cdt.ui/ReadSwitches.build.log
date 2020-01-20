@@ -1,0 +1,6 @@
+22:08:03 **** Incremental Build of configuration Default for project ReadSwitches ****
+make all 
+makefile:4: *** MIPS_ELF_ROOT must be set to point to toolkit installation root.  Stop.
+
+22:08:05 Build Finished (took 2s.347ms)
+

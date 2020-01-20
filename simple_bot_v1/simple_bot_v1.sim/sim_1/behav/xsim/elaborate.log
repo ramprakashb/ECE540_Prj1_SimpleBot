@@ -1,0 +1,11 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto f31c5a20131646988156bc406403ab58 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2538] module instantiation should have an instance name [D:/psu/subject/2nd_quarter/soc/roy_materials/simple_bot/rtl_n_constraints/rtl_up/system/mfp_ahb.v:69]
+ERROR: [VRFC 10-2063] Module <mfp_ahb_sevensegtimer> not found while processing module instance <sevensegtimer> [D:/psu/subject/2nd_quarter/soc/roy_materials/simple_bot/rtl_n_constraints/rtl_up/system/mfp_ahb_segment.v:31]
+ERROR: [VRFC 10-2063] Module <ahb_decoder> not found while processing module instance <ahb_decoder> [D:/psu/subject/2nd_quarter/soc/roy_materials/simple_bot/rtl_n_constraints/rtl_up/system/mfp_ahb.v:72]
+ERROR: [VRFC 10-2063] Module <ahb_mux> not found while processing module instance <ahb_mux> [D:/psu/subject/2nd_quarter/soc/roy_materials/simple_bot/rtl_n_constraints/rtl_up/system/mfp_ahb.v:73]
+ERROR: [VRFC 10-2063] Module <mfp_ejtag_reset> not found while processing module instance <mfp_ejtag_reset> [D:/psu/subject/2nd_quarter/soc/roy_materials/simple_bot/rtl_n_constraints/rtl_up/system/mfp_sys.v:330]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
